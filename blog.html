@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="halloween">
+<html lang="en" data-theme="luxury">
 
 <head>
     <meta charset="UTF-8">
@@ -11,42 +11,66 @@
 </head>
 
 <body>
+    <h1 class="text-3xl text-center mt-7 font-bold">Welcome to my <span class="text-zinc-500">blog</span> page <span
+            class="text-neutral-400">!!!</span></h1>
+    <br><br><br>
     <section class="justify-between p-6">
-        <h1 class="text-3xl text-center mt-7 font-bold">Welcome to my <span class="text-zinc-500">blog</span> page <span
-                class="text-neutral-400">!!!</span></h1>
-        <br><br><br>
         <div tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box">
-            <div class="collapse-title text-xl font-medium">
-                Focus me to see content
+            <div class="collapse-title text-xl font-bold">
+                What is the difference between map, filter, forEach and find?
             </div>
             <div class="collapse-content">
-                <p>tabindex="0" attribute is necessary to make the div focusable</p>
+                <p class="font-medium">map is used to transform elements, filter is used to select elements, forEach is
+                    used to iterate over elements and execute a function, and find is used to find a specific element.
+                </p>
             </div>
         </div><br>
         <div tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box">
-            <div class="collapse-title text-xl font-medium">
-                Focus me to see content
+            <div class="collapse-title text-xl font-bold">
+                What is the difference between local storage, session storage and cookies?
             </div>
             <div class="collapse-content">
-                <p>tabindex="0" attribute is necessary to make the div focusable</p>
+                <p class="font-medium">localStorage and sessionStorage are similar, but differ in their scope of data
+                    storage and data accessibility. Cookies have a shorter lifespan and smaller data storage limit, but
+                    can be accessed by server-side code and restricted to certain paths or subdomains. Each one has its
+                    own use cases and benefits depending on the specific requirements of the application.</p>
             </div>
         </div><br>
         <div tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box">
-            <div class="collapse-title text-xl font-medium">
-                Focus me to see content
+            <div class="collapse-title text-xl font-bold">
+                What is an event loop and how does it work?
             </div>
             <div class="collapse-content">
-                <p>tabindex="0" attribute is necessary to make the div focusable</p>
+                <p class="font-medium">The event loop is a mechanism that enables asynchronous and non-blocking
+                    processing of code. <br><br>
+                    The event loop works by continuously checking two queues: the call stack and the message queue. The
+                    call stack is a data structure that stores a list of function calls that are currently being
+                    executed. When a function is called, it is added to the call stack, and when it returns, it is
+                    removed from the stack</p>
             </div>
         </div><br>
         <div tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box">
-            <div class="collapse-title text-xl font-medium">
-                Focus me to see content
+            <div class="collapse-title text-xl font-bold">
+                How did the quizTimer function work?
             </div>
             <div class="collapse-content">
-                <p>tabindex="0" attribute is necessary to make the div focusable</p>
+                <p class="font-medium">This function implements a timer for a quiz, and updates the displayed time every
+                    second while also changing the color of the displayed time after 60 seconds</p>
             </div>
-        </div>
+        </div><br>
+        <div tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box">
+            <div class="collapse-title text-xl font-bold">
+                What is an event loop and how does it work?
+            </div>
+            <div class="collapse-content">
+                <p class="font-medium">The chooseQuiz() function takes an index and a given answer as parameters and
+                    updates an array called answers with a new object that contains the quiz data and the given answer
+                    for that quiz. If an object with the same ID as the quiz being answered already exists in the
+                    answers array, the function updates the answer for that object. If no such object exists, it adds a
+                    new object to the answers array. Finally, the displayAnswers() function is called to update the user
+                    interface with the updated answers array.</p>
+            </div>
+        </div><br>
     </section>
 </body>
 
